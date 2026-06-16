@@ -265,12 +265,12 @@
     </a>
   </div>
   <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="menu.html">Menu</a></li>
-    <li><a href="index.html#chefs">Chefs</a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-    <li><a href="ai.html" style="color:var(--accent-pale)">AI Assistant</a></li>
-    <li><a href="tel:+34646906897" class="nav-reserve">Reserve</a></li>
+    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+    <li><a href="menu.html" data-i18n="nav_menu">Menu</a></li>
+    <li><a href="index.html#chefs" data-i18n="nav_chefs">Chefs</a></li>
+    <li><a href="gallery.html" data-i18n="nav_gallery">Gallery</a></li>
+    <li><a href="ai.html" style="color:var(--accent-pale)" data-i18n="nav_ai">AI Assistant</a></li>
+    <li><a href="tel:+34646906897" class="nav-reserve" data-i18n="nav_reserve">Reserve</a></li>
   </ul>
   <div class="lang-selector" id="langSelector">
     <button class="lang-selector-btn" id="langSelectorBtn" onclick="toggleLangDropdown()">
@@ -298,10 +298,10 @@
   </div>
 </nav>
 <div class="mobile-menu" id="mobileMenu">
-  <a href="index.html" onclick="closeMobileMenu()">Home</a>
-  <a href="menu.html" onclick="closeMobileMenu()">Menu</a>
-  <a href="tel:+34646906897" onclick="closeMobileMenu()">Reserve</a>
-  <a href="tel:+34646906897">Call us</a>
+  <a href="index.html" onclick="closeMobileMenu()" data-i18n="nav_home">Home</a>
+  <a href="menu.html" onclick="closeMobileMenu()" data-i18n="nav_menu">Menu</a>
+  <a href="tel:+34646906897" onclick="closeMobileMenu()" data-i18n="nav_reserve">Reserve</a>
+  <a href="tel:+34646906897" data-i18n="nav_call">Call us</a>
   <div class="mobile-lang-row">
     <button class="mobile-lang-opt active" id="mob-lang-en" onclick="setLang('en');closeMobileMenu()">🇬🇧 EN</button>
     <button class="mobile-lang-opt" id="mob-lang-es" onclick="setLang('es');closeMobileMenu()">🇪🇸 ES</button>
@@ -312,9 +312,9 @@
 
 <!-- Hero -->
 <div class="ai-hero">
-  <a href="index.html" class="ai-hero-back">← Back to ENJOY</a>
-  <h1 class="ai-hero-title">ENJOY <em>AI Assistant</em></h1>
-  <p class="ai-hero-sub">Ask anything — menu, allergens, reservations, the teppanyaki show, or anything else. Available 24/7 in 5 languages.</p>
+  <a href="index.html" class="ai-hero-back" data-i18n="ai_back">← Back to ENJOY</a>
+  <h1 class="ai-hero-title" data-i18n="ai_hero_title">ENJOY <em>AI Assistant</em></h1>
+  <p class="ai-hero-sub" data-i18n="ai_hero_sub">Ask anything — menu, allergens, reservations, the teppanyaki show, or anything else. Available 24/7 in 5 languages.</p>
 </div>
 
 <!-- Main content -->
@@ -324,13 +324,13 @@
   <div class="chat-wrap">
     <div class="chat-header">
       <div class="chat-dot"></div>
-      <span class="chat-header-title">ENJOY AI Assistant · Online</span>
+      <span class="chat-header-title" data-i18n="ai_status">ENJOY AI Assistant · Online</span>
     </div>
 
     <div class="chat-messages" id="chatMessages">
       <div class="msg bot">
         <span class="msg-label">ENJOY AI</span>
-        <div class="msg-bubble">
+        <div class="msg-bubble" data-i18n="ai_welcome">
           <strong>Irasshaimase! 🍣</strong><br><br>
           Welcome to ENJOY Asian Restaurant, on the beachfront of Puerto del Carmen, Lanzarote. I know everything about our restaurant — the full menu, allergens, opening hours, reservations, the teppanyaki show and more.<br><br>
           How can I help you today?
@@ -339,14 +339,14 @@
     </div>
 
     <div class="chat-chips">
-      <button class="chip" onclick="sendSuggestion('What sushi do you recommend?')">🍣 Sushi</button>
-      <button class="chip" onclick="sendSuggestion('I have a gluten allergy, what can I eat?')">⚠️ Gluten-free</button>
-      <button class="chip" onclick="sendSuggestion('I am vegetarian, what dishes do you have?')">🌿 Vegetarian</button>
-      <button class="chip" onclick="sendSuggestion('I love spicy food, what do you recommend?')">🌶️ Spicy</button>
-      <button class="chip" onclick="sendSuggestion('What are your opening hours?')">🕐 Hours</button>
-      <button class="chip" onclick="sendSuggestion('How do I book a teppanyaki table?')">🔥 Teppanyaki</button>
-      <button class="chip" onclick="sendSuggestion('What cocktails do you have?')">🍸 Cocktails</button>
-      <button class="chip" onclick="sendSuggestion('How do I get to the restaurant and where can I park?')">📍 Location</button>
+      <button class="chip" data-i18n="chip_sushi" onclick="sendSuggestionKey('ai_sq_sushi')">🍣 Sushi</button>
+      <button class="chip" data-i18n="chip_gf" onclick="sendSuggestionKey('ai_sq_gf')">⚠️ Gluten-free</button>
+      <button class="chip" data-i18n="chip_veg" onclick="sendSuggestionKey('ai_sq_veg')">🌿 Vegetarian</button>
+      <button class="chip" data-i18n="chip_spicy" onclick="sendSuggestionKey('ai_sq_spicy')">🌶️ Spicy</button>
+      <button class="chip" data-i18n="chip_hours" onclick="sendSuggestionKey('ai_sq_hours')">🕐 Hours</button>
+      <button class="chip" data-i18n="chip_teppanyaki" onclick="sendSuggestionKey('ai_sq_teppanyaki')">🔥 Teppanyaki</button>
+      <button class="chip" data-i18n="chip_cocktails" onclick="sendSuggestionKey('ai_sq_cocktails')">🍸 Cocktails</button>
+      <button class="chip" data-i18n="ai_chip_location" onclick="sendSuggestionKey('ai_sq_location')">📍 Location</button>
     </div>
 
     <div class="chat-input-row">
@@ -365,37 +365,36 @@
   <!-- Sidebar -->
   <aside class="ai-sidebar">
     <div class="sidebar-card">
-      <div class="sidebar-card-title">What can I ask?</div>
+      <div class="sidebar-card-title" data-i18n="ai_sidebar_title">What can I ask?</div>
       <div class="sidebar-item">
-        <div class="sidebar-item-title">Menu & Dishes</div>
-        <div class="sidebar-item-desc">All 70+ dishes with descriptions, prices and allergens — sushi, teppanyaki, Thai, Chinese, dim sum and more.</div>
+        <div class="sidebar-item-title" data-i18n="ai_card1_title">Menu & Dishes</div>
+        <div class="sidebar-item-desc" data-i18n="ai_card1_desc">All 70+ dishes with descriptions, prices and allergens — sushi, teppanyaki, Thai, Chinese, dim sum and more.</div>
       </div>
       <div class="sidebar-item">
-        <div class="sidebar-item-title">Allergens & Diet</div>
-        <div class="sidebar-item-desc">Gluten-free, vegan, vegetarian, nut-free, shellfish-free — I'll guide you through every option.</div>
+        <div class="sidebar-item-title" data-i18n="ai_card2_title">Allergens & Diet</div>
+        <div class="sidebar-item-desc" data-i18n="ai_card2_desc">Gluten-free, vegan, vegetarian, nut-free, shellfish-free — I'll guide you through every option.</div>
       </div>
       <div class="sidebar-item">
-        <div class="sidebar-item-title">Reservations</div>
-        <div class="sidebar-item-desc">How to book a table or a teppanyaki show. I can also take your details and connect you directly.</div>
+        <div class="sidebar-item-title" data-i18n="ai_card3_title">Reservations</div>
+        <div class="sidebar-item-desc" data-i18n="ai_card3_desc">How to book a table or a teppanyaki show. I can also take your details and connect you directly.</div>
       </div>
       <div class="sidebar-item">
-        <div class="sidebar-item-title">5 Languages</div>
-        <div class="sidebar-item-desc">Write in English, Spanish, German, French or Dutch — I'll reply in the same language automatically.</div>
+        <div class="sidebar-item-title" data-i18n="ai_card4_title">5 Languages</div>
+        <div class="sidebar-item-desc" data-i18n="ai_card4_desc">Write in English, Spanish, German, French or Dutch — I'll reply in the same language automatically.</div>
       </div>
     </div>
 
     <div class="sidebar-card">
-      <div class="sidebar-card-title">Quick Info</div>
+      <div class="sidebar-card-title" data-i18n="ai_quickinfo_title">Quick Info</div>
       <div class="sidebar-info">
-        <strong>📍 Address</strong><br>
-        Av. de las Playas 21<br>
-        Puerto del Carmen, Lanzarote<br><br>
-        <strong>🕐 Hours</strong><br>
-        Every day · 12:00 – 24:00<br><br>
-        <strong>📞 Phone / WhatsApp</strong><br>
+        <strong data-i18n="ai_qi_address">📍 Address</strong><br>
+        <span data-i18n="ai_qi_address_v">Av. de las Playas 21<br>Puerto del Carmen, Lanzarote</span><br><br>
+        <strong data-i18n="ai_qi_hours">🕐 Hours</strong><br>
+        <span data-i18n="ai_qi_hours_v">Every day · 12:00 – 24:00</span><br><br>
+        <strong data-i18n="ai_qi_phone">📞 Phone / WhatsApp</strong><br>
         +34 646 906 897<br><br>
-        <strong>🅿️ Parking</strong><br>
-        Free public parking on Av. de las Playas
+        <strong data-i18n="ai_qi_parking">🅿️ Parking</strong><br>
+        <span data-i18n="ai_qi_parking_v">Free public parking on Av. de las Playas</span>
       </div>
     </div>
   </aside>
