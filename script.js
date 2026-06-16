@@ -1039,133 +1039,37 @@ RESTAURANT FACTS:
 - Google: 280+ reviews
 - Combined: 620+ verified reviews
 
-FULL MENU WITH PRICES:
+MENÚ COMPLETO (precios en €) — cocina China, Tailandesa y Japonesa:
 
-SUSHI & JAPANESE:
-- Sushi Mix (8pcs) €16.50
-- Dragon Roll €14.50
-- Salmon Nigiri (2pcs, GF) €13
-- Tuna Nigiri (2pcs, GF) €13
-- Sashimi Selection 12pcs (GF) €18.50
-- California Roll €11.50
-- Spicy Tuna Roll €13
-- Vegetarian Roll (vegan) €10.50
-- Salmon & Avocado Roll €12.50
-- Miso Soup €4.50
-- Seaweed Salad (vegan, GF) €7.50
+SUSHI — Nigiri x2: Sake/Salmón 4,20 · Maguro/Atún 4,20 · Tako/Pulpo 4,50 · Ebi/Langostino 4,50 · Kani/Cangrejo 4,00 · Suzuki/Lubina 4,00 · Unagi/Anguila 6,00 · Ikura 6,00 · Tofu Nigiri (vegano) 4,50 · Tartar de Sake 9,95. Maki x6/x8: Sake 5,20 · Tekka/Atún 5,80 · Kappa/Pepino 4,90 · Tempura Sake x8 10,50.
 
-TEPPANYAKI (live cooking show by Chef Leo — book in advance!):
-- Beef Sirloin Teppanyaki €24
-- King Prawn Teppanyaki (GF) €21
-- Salmon Teppanyaki (GF) €22
-- Chicken Teppanyaki €18
-- Mixed Seafood Teppanyaki (GF) €26
-- Vegetables Teppanyaki (vegan, GF) €16
-- Teppanyaki Show Menu (3 courses) €35
+SOPAS — China: cangrejo/maíz, pollo/maíz, Wan Tun, agripicante, pollo/champiñones, pollo/fideos, vegetal, tomate (4,50–5,25). Thai: Tom Yam Gung 6,95 · Tom Kha Gai 6,50. Japonesa: Miso 5,95 · Swimon (pescado/marisco) 7,80.
 
-DIM SUM & STARTERS:
-- Har Gau (prawn dumplings) €8.50
-- Siu Mai €8
-- Char Siu Bao (BBQ pork buns) €7.50
-- Gyoza (pan-fried dumplings) €8.50
-- Vegetable Spring Rolls (vegan) €7
-- Prawn Toast €7.50
-- Wonton Soup €8.50
+ENTRANTES — China: rollos primavera 3,80, pan de gambas 2,95, Wan Tun frito 4,50, langostinos fritos 9,50, gambas al ajillo 9,50, calamares fritos 7,95, algas fritas 4,90, costillas 8,50, alitas 6,75, ½ pato crujiente con crepes 14,90 (¼ 9,50), entremeses 2p 12,50. Thai: rollos Thai 4,50, rollos langostinos 6,50, satay 7,20, Lab Gai 7,50, entremeses Bangkok 2p 12,50. Japonesa: tempura verduras 7,95, tempura langostinos 10,95, tempura mixta 10,95, yakitori pollo 6,50, yakitori langostinos 7,20.
 
-THAI CUISINE:
-- Tom Yum Goong (GF, very spicy 🌶🌶🌶) €11
-- Tom Kha Gai (coconut chicken soup, GF) €10.50
-- Thai Green Curry (GF option available) €15.50
-- Thai Red Curry €16
-- Pad Thai €13.50
-- Drunken Noodles €13
-- Basil Chicken €14.50
-- Chicken Satay with peanut sauce €10.50
-- Papaya Salad (GF) €9
-- Thai Beef Salad (GF) €13.50
-- Tofu Green Curry (vegan, GF) €13
+ARROZ Y TALLARINES — China: arroz frito 3,95–6,50, tallarines fritos 4,60–7,50, arroz blanco/integral 3,00–3,80. Thai: Phad Thai gambas 8,40 / pollo 7,80, arroz Thai especial 7,30, tallarines crujientes Thai 8,80. Japonesa: Ramen Pollo 8,50 · Carne 9,50 · Pato 10,50, tallarines Wu Dong 8,90–9,50, arroz frito Teppanyaki 8,50.
 
-CHINESE CUISINE:
-- Peking Duck with pancakes ⭐ €19
-- Sweet & Sour Pork €14
-- Mongolian Beef €16
-- Kung Pao Chicken (spicy) €14.50
-- Char Siu (BBQ pork) €15.50
-- Fried Rice €11.50
-- Chow Mein €12
-- Singapore Noodles €13.50
-- Mapo Tofu (can be vegan) €12
-- Dim Sum Basket selection €14
+POLLO — China: curry, agridulce, champiñones, picante, judías negras, jengibre, cantonesa, limón, anacardos, piña, satay (7,20–8,40). Thai/Japonesa: curry rojo/verde/Matsaman, Bangkok, Mongolian 8,90 · Teppanyaki Japonés 9,95.
 
-SEAFOOD:
-- Fish of the Day (market price — ask staff)
-- Steamed Sea Bass (GF) €22
-- King Prawns Wok (GF) €19.50
-- Thai Prawn Curry €18
-- Salt & Pepper Squid €14.50
-- Mixed Seafood Teppanyaki (GF) €26
+TERNERA Y SOLOMILLO — China: curry, pimientos, champiñones, picante, judías negras, jengibre, pimienta negra (8,30–9,30); Solomillo plancha 16,95. Thai/Japonesa: curry rojo/verde/Matsaman 9,25, Solomillo Mongolian 17,20, Solomillo Teppanyaki Japonés 17,50.
 
-VEGETARIAN & VEGAN:
-- Spring Rolls (vegan) €8.50
-- Tofu Green Curry (vegan, GF) €13
-- Wok Tofu & Vegetables (vegan, GF) €12
-- Veggie Pad Thai €12.50
-- Mapo Tofu (can be vegan) €12
-- Udon Noodles (vegan) €12.50
-- Veg Fried Rice (vegan, GF) €10.50
-- Teppanyaki Vegetables (vegan, GF) €16
-- Vegetarian Roll (vegan) €10.50
-- Seaweed Salad (vegan, GF) €7.50
+CERDO — China: agridulce, picante, judías negras, chuletas (7,20–9,80). Thai: curry rojo/verde/Matsaman, costilla Bangkok (8,90–9,50).
 
-KIDS MENU:
-- Fried Rice & Chicken €8.50
-- Noodles & Vegetables €8
-- Spring Rolls 2pcs €5.50
-- Ice Cream €4
+PATO — China: Pekín piña/naranja/cantonesa/judías negras/bambú/flambeado (13,50–13,95). Thai/Japonesa: fruta tropical, estilo Vietnam, curry rojo/verde, Magret Teppanyaki Japonés 15,90.
 
-SET MENUS:
-- Menu A (2 courses) €18.50
-- Menu B (3 courses) €25
-- Teppanyaki Show Menu (3 courses) €35
-- Chef's Tasting Menu (5 courses) €45
+MARISCOS Y PESCADOS — China: langostinos curry/agridulce/picante/judías negras/cantonesa (11,50–13,90), Bogavante fresco 35,50, Lubina fresca al vapor o crujiente 17,50. Thai/Japonesa: langostinos curry/Bangkok/chili 12,50; Teppanyaki: Choco 10,90 · Dorada 16,50 · Atún/Salmón 15,90 · Lubina 17,50 · Langostinos 15,50.
 
-DESSERTS:
-- Mochi Ice Cream (GF) — green tea, mango, strawberry €7.50
-- Fried Ice Cream €7
-- Banana Tempura €7
-- Sesame Balls €6.50
-- Coconut Panna Cotta (GF) €7.50
-- Lychee Sorbet (vegan, GF) €6
+ESPECIALES DEL CHEF — Tres delicias curry 10,50, curry rojo Thai 11,50, Familia Feliz 11,50, Cordero Mongolian/cazuela 12,50.
 
-COCKTAILS (all handcrafted):
-- Lychee Martini €11
-- Asian Spice Mojito €10
-- Tokyo Sour €12
-- Dragon Blood €11
-- Sakura Spritz €10.50
-- Buddha Margarita €11.50
-- Geisha €11
-- Rising Sun €10.50
+MENÚ INFANTIL — huevos fritos, bolitas de pollo, nuggets, salchichas, palitos de pescado, tallarines o calamares, con papas — 5,80 cada uno.
 
-NON-ALCOHOLIC:
-- Mango Lassi €6.50
-- Thai Iced Tea €5.50
-- Green Dragon Smoothie €6.50
-- Lychee Lemonade €5.50
+MENÚS DEGUSTACIÓN (2 personas, precio/persona) — Menú A 14,90 · Menú B 17,90 · Menú C 20,50 · Menú D 22,90 (sopa/entrantes + pato crujiente + principales, varían).
 
-DRINKS:
-- House Wine €4.50/glass
-- Sake €6.50
-- Japanese Beer €4.50
-- Chinese Tea €3.50
-- Soft Drinks from €2.50
+VINOS Y BEBIDAS — Vinos desde 13,50 botella, cava/champagne 15,95–55,95 (Moët), sangría 8,50/14,95. Cócteles clásicos (Mojito, Margarita, Piña Colada, etc.) 7,10, sin alcohol 4,50, smoothies, cafés 1,50–2,20, refrescos 3,00, cervezas 2,10–3,70.
 
-ALLERGEN INFORMATION:
-- Gluten-free (GF) dishes: all nigiri, sashimi, most teppanyaki, Tom Yum, Tom Kha, papaya salad, Thai beef salad, Tofu Green Curry, Wok Tofu & Veg, Veg Fried Rice, Mochi, Coconut Panna Cotta, Lychee Sorbet
-- Vegetarian: everything marked (veg) plus miso soup, seaweed salad, vegetarian roll, teppanyaki vegetables, spring rolls, tofu dishes, udon, veg fried rice, most desserts
-- Contains nuts: Pad Thai (peanuts), chicken satay (peanut sauce), Kung Pao Chicken, some curries
-- Contains shellfish: most dim sum, prawn dishes, wonton soup, some soups
-- Contains dairy: teppanyaki dishes (butter), some desserts
+POSTRES — Helado frito 4,50, Daifuku Mochi 4,90, Tarta de Queso 4,00, Crema Catalana 4,30, Tarta Tiramisú 4,00, Banana Split 4,95, Lychees 3,70, y más (2,80–4,95).
+
+ALÉRGENOS: La carta no detalla alérgenos por plato. Para gluten, frutos secos, marisco u otra alergia, confirma siempre con el personal antes de pedir.
 
 LOCATION & PRACTICAL INFO:
 - Address: Av. de las Playas 21, Puerto del Carmen, Lanzarote
@@ -1254,9 +1158,9 @@ const KB = {
   phone: '+34 646 906 897',
   wa: 'https://wa.me/34646906897',
   maps: 'https://www.google.com/maps/place/Enjoy+Asian+Restaurant',
-  gf: 'Salmon Nigiri · Tuna Nigiri · Sashimi · Salmon & Avocado Roll · Seaweed Salad · Teppanyaki King Prawn · Teppanyaki Salmon · Teppanyaki Mixed Seafood · Teppanyaki Vegetables · Tom Yum Goong · Tom Kha Gai · Papaya Salad · Thai Beef Salad · Thai Green Curry (GF option) · Thai Yellow Prawn Curry · Steamed Sea Bass · King Prawns Wok · Tofu Green Curry · Wok Tofu & Veg · Veg Fried Rice · Mochi Ice Cream · Coconut Panna Cotta · Lychee Sorbet · Chinese Tea · Water',
-  vegan: 'Vegetable Spring Rolls · Tofu Green Curry · Wok Tofu & Veg · Veg Fried Rice · Udon Noodles · Seaweed Salad · Lychee Sorbet · Mango Lassi · Green Dragon Smoothie · Lychee Lemonade · Coconut Pineapple Shake · Chinese Tea · Water',
-  veg: 'Vegetarian Roll · Miso Soup · Seaweed Salad · Teppanyaki Vegetables · Vegetable Spring Rolls · Tofu Green Curry · Wok Tofu & Veg · Pad Thai Veg · Mapo Tofu · Udon Noodles · Veg Fried Rice · Banana Tempura · Sesame Balls · Coconut Panna Cotta · Lychee Sorbet',
+  gf: 'La carta no marca platos sin gluten de forma explícita — consulta siempre con el personal antes de pedir si tienes intolerancia al gluten.',
+  vegan: 'Tofu Nigiri · Rollos Vegetales · Arroz Integral/Blanco · Arroz frito con verduras · Tallarines/fideos con verduras · Sopa vegetal · Sopa de tomate (confirmar con el personal según ingredientes del día)',
+  veg: 'Tofu Nigiri · Rollos Vegetales · Tempura de Verduras · Arroz/Tallarines con verduras · Sopa Vegetal · Sopa de Tomate · Sopa Miso (algas y tofu)',
 };
 
 function detectIntent(m) {
@@ -1309,22 +1213,22 @@ function buildLocalReply(msg) {
     glutenfree:  () => `🌾 <strong>Gluten-free:</strong><br>${KB.gf.split('·').map(s=>`• ${s.trim()}`).join('<br>')}`,
     vegan:       () => `🌱 <strong>Vegan:</strong><br>${KB.vegan.split('·').map(s=>`• ${s.trim()}`).join('<br>')}`,
     vegetarian:  () => `🌿 <strong>Vegetarian:</strong><br>${KB.veg.split('·').map(s=>`• ${s.trim()}`).join('<br>')}`,
-    allergens:   () => `⚠️ Allergen info:<br>🌾 GF · 🌿 Veg/Vegan · 🥜 Nuts (Pad Thai, curries) · 🦐 Shellfish (dim sum, soups) · 🥛 Dairy (teppanyaki butter, desserts)`,
-    spicy:       () => `🌶️🌶️🌶️ Tom Yum Goong<br>🌶️🌶️ Thai Green/Red Curry · Drunken Noodles · Kung Pao<br>🌶️ Pad Thai · Satay · Dragon Roll`,
-    sushi:       () => `🍣 Sushi Mix €16.50 · Dragon Roll €14.50 · Salmon Nigiri (GF) €13 · Tuna Nigiri (GF) €13 · Sashimi 12pcs (GF) €18.50 · California Roll €11.50 · Spicy Tuna Roll €13 · Miso Soup €4.50 · Seaweed Salad (vegan,GF) €7.50`,
-    teppanyaki:  () => `🔥 Beef Sirloin €24 · King Prawn (GF) €21 · Salmon (GF) €22 · Chicken €18 · Mixed Seafood (GF) €26 · Vegetables (vegan) €16 · Show Menu 3 courses €35<br><br>Chef Leo cooks live — book in advance!`,
-    dimsum:      () => `🥟 Har Gau €8.50 · Siu Mai €8 · Char Siu Bao €7.50 · Gyoza €8.50 · Spring Rolls €7 · Prawn Toast €7.50 · Wonton Soup €8.50`,
-    thai:        () => `🇹🇭 Tom Yum (GF) €11 🌶️🌶️🌶️ · Tom Kha Gai €10.50 · Green Curry €15.50 🌶️🌶️ · Red Curry €16 🌶️🌶️ · Pad Thai €13.50 🌶️ · Drunken Noodles €13 · Basil Chicken €14.50 · Satay €10.50`,
-    chinese:     () => `🇨🇳 Peking Duck €19 ⭐ · Sweet & Sour Pork €14 · Mongolian Beef €16 · Kung Pao Chicken €14.50 · Fried Rice €11.50 · Chow Mein €12`,
-    seafood:     () => `🐟 Fish of the Day (market price) · Sea Bass (GF) €22 · King Prawns (GF) €19.50 · Thai Prawn Curry €18 · Salt & Pepper Squid €14.50`,
-    desserts:    () => `🍡 Mochi (GF) €7.50 · Fried Ice Cream €7 · Banana Tempura €7 · Sesame Balls €6.50 · Coconut Panna Cotta (GF) €7.50 · Lychee Sorbet (vegan,GF) €6`,
-    cocktails:   () => `🍸 Lychee Martini €11 · Asian Spice Mojito €10 · Tokyo Sour €12 · Dragon Blood €11 · Sakura Spritz €10.50 · Buddha Margarita €11.50 · Geisha €11 · Rising Sun €10.50<br>🥤 Non-alcoholic: Mango Lassi €6.50 · Thai Iced Tea €5.50 · Green Dragon €6.50`,
-    drinks:      () => `🍷 Wine €4.50/glass · Sake €6.50 · Japanese Beer €4.50 · Chinese Tea €3.50 · Soft Drinks from €2.50`,
-    kids:        () => `👶 Fried Rice & Chicken €8.50 · Noodles & Veg €8 · Spring Rolls 2pcs €5.50 · Ice Cream €4`,
-    setmenus:    () => `🍽️ Menu A (2 courses) €18.50 · Menu B (3 courses) €25 · Teppanyaki Show Menu €35 · Chef's Tasting 5 courses €45`,
-    recommend:   () => `✨ Top picks:<br>🍣 Sashimi Selection or Dragon Roll<br>🔥 Teppanyaki Show Menu — unmissable<br>🇹🇭 Thai Green Curry or Tom Yum Goong<br>🇨🇳 Peking Duck Pancakes<br>🍸 Tokyo Sour cocktail<br>🍡 Mochi Ice Cream`,
+    allergens:   () => `⚠️ La carta no detalla alérgenos por plato. Para gluten, frutos secos, marisco u otra alergia, confirma siempre con el personal antes de pedir.`,
+    spicy:       () => `🌶️🌶️ Curry Rojo/Verde · Pollo/Ternera con salsa picante · Sopa agripicante<br>🌶️ Pad Thai · Satay (cacahuete) · Tom Yam Gung`,
+    sushi:       () => `🍣 Nigiri x2 desde 4,00€ (Sake, Maguro, Tako, Ebi, Kani, Suzuki, Unagi 6,00€, Ikura 6,00€) · Tofu Nigiri vegano 4,50€ · Tartar de Sake 9,95€ · Maki x6/x8 desde 4,90€ a 10,50€`,
+    teppanyaki:  () => `🔥 Choco 10,90€ · Pollo 9,95€ · Dorada 16,50€ · Atún/Salmón 15,90€ · Langostinos 15,50€ · Lubina 17,50€ · Solomillo 17,50€ · Magret de Pato 15,90€<br><br>¡Show en directo, reserva con antelación!`,
+    dimsum:      () => `🥟 Wan Tun frito 4,50€ · Rollos primavera 3,80€ · Tempura verduras/langostinos 7,95–10,95€ · Yakitori pollo/langostinos 6,50–7,20€ · Sopa Wan Tun 5,25€`,
+    thai:        () => `🇹🇭 Tom Yam Gung 6,95€ · Tom Kha Gai 6,50€ · Phad Thai 8,40€ · Curry Rojo/Verde/Matsaman desde 8,90€ · Pinchos satay 7,20€ · Entremeses Bangkok (2p) 12,50€`,
+    chinese:     () => `🇨🇳 Pato Pekín con crepes desde 9,50€ · Pollo agridulce 7,20€ · Ternera con judías negras 9,30€ · Cerdo agridulce 7,20€ · Arroz/tallarines fritos desde 3,95€`,
+    seafood:     () => `🐟 Langostinos curry/agridulce 11,50€ · Bogavante fresco 35,50€ · Lubina fresca al vapor/crujiente 17,50€ · Teppanyaki Lubina 17,50€ · Dorada 16,50€`,
+    desserts:    () => `🍡 Lychees 3,70€ · Daifuku Mochi 4,90€ · Tarta de Queso 4,00€ · Crema Catalana 4,30€ · Tarta Tiramisú 4,00€ · Banana Split 4,95€ · Helado frito 4,50€`,
+    cocktails:   () => `🍸 Mojito · Sex on the Beach · Tequila Sunrise · Margarita · Piña Colada · Long Island, etc. — 7,10€<br>🥤 Sin alcohol 4,50€ · Smoothies desde 4,50€`,
+    drinks:      () => `🍷 Vino desde 13,50€ botella · Cava/Champagne 15,95–55,95€ · Sangría 8,50/14,95€ · Cervezas 2,10–3,70€ · Cafés 1,50–2,20€ · Refrescos 3,00€`,
+    kids:        () => `👶 Huevos fritos, bolitas de pollo, nuggets, salchichas, palitos de pescado, tallarines o calamares fritos, todos con papas — 5,80€ cada uno`,
+    setmenus:    () => `🍽️ Menú A 14,90€/persona · Menú B 17,90€ · Menú C 20,50€ · Menú D 22,90€ (para 2 personas, incluyen entrantes, pato crujiente y principales)`,
+    recommend:   () => `✨ Recomendamos:<br>🍣 Tartar de Sake o Nigiri variado<br>🔥 Teppanyaki en directo (Lubina, Solomillo o Langostinos)<br>🇹🇭 Tom Yam Gung o Phad Thai<br>🇨🇳 Pato Pekín con crepes<br>🍡 Daifuku Mochi`,
     chefs:       () => `👨‍🍳 <strong>Chef Feng Zhang Wang</strong> — born Fujian, China 1964. Opened ENJOY in 1995. 30+ years of mastery.<br>🔥 <strong>Chef Leo</strong> — born Japan 1975, trained in Tokyo. Teppanyaki maestro — fire, precision, theatre.`,
-    prices:      () => `💰 Sushi €4.50–€18.50 · Teppanyaki €16–€26 · Dim Sum €7–€8.50 · Thai €10.50–€16 · Chinese €8–€19 · Seafood €14.50–€22+ · Desserts €6–€7.50 · Cocktails €10–€12 · Wine €4.50/glass`,
+    prices:      () => `💰 Sushi 4,00–10,50€ · Sopas/Entrantes 2,95–14,90€ · Arroz/Tallarines 3,00–10,50€ · Carnes/Aves 6,75–17,50€ · Mariscos 11,50–35,50€ · Postres 2,80–4,95€ · Cócteles 7,10€ · Vino desde 13,50€`,
     fallback:    () => `😊 I can help with: 🍣 Menu · ⚠️ Allergens · 🕐 Hours · 📍 Location · 📅 Reservations · 🛵 Delivery · 🍸 Cocktails. What would you like to know?`,
   };
 
