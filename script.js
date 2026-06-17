@@ -1154,6 +1154,15 @@ function setLang(lang) {
   const chatInput = document.getElementById('chatInput');
   if (chatInput) chatInput.placeholder = T.chat_placeholder || '';
 
+  // 6b. Float chat welcome + placeholder
+  const floatPanel = document.getElementById('floatChatMessages');
+  if (floatPanel) {
+    const floatWelcome = floatPanel.querySelector('.msg-bubble[data-i18n="ai_welcome"]');
+    if (floatWelcome) floatWelcome.innerHTML = T.ai_welcome || TRANSLATIONS.en.ai_welcome;
+  }
+  const floatInput = document.getElementById('floatChatInput');
+  if (floatInput) floatInput.placeholder = T.chat_placeholder || 'Ask anything…';
+
   // 7. Smooth fade
   document.body.classList.add('lang-fade');
   setTimeout(() => document.body.classList.remove('lang-fade'), 380);
@@ -1427,6 +1436,91 @@ async function sendChatMessage() {
   chatHistory.push({ role: 'assistant', content: reply });
   removeTyping();
   addMessage('bot', reply);
+}
+
+/* ── FLOATING CHAT WIDGET ──────────────────────────────────── */
+let floatChatOpen = false;
+let floatChatHistory = [];
+
+function toggleAiChat() {
+  floatChatOpen = !floatChatOpen;
+  const panel = document.getElementById('ai-chat-panel');
+  const icon  = document.getElementById('ai-chat-btn-icon');
+  const close = document.getElementById('ai-chat-btn-close');
+  if (!panel) return;
+  panel.style.display = floatChatOpen ? 'flex' : 'none';
+  if (icon)  icon.style.display  = floatChatOpen ? 'none'   : 'inline';
+  if (close) close.style.display = floatChatOpen ? 'inline' : 'none';
+  if (floatChatOpen) {
+    const inp = document.getElementById('floatChatInput');
+    if (inp) inp.focus();
+    // Sync welcome message to current language
+    const T = TRANSLATIONS[currentLang] || TRANSLATIONS.en;
+    const wb = panel.querySelector('.msg-bubble[data-i18n="ai_welcome"]');
+    if (wb) wb.innerHTML = T.ai_welcome || TRANSLATIONS.en.ai_welcome;
+    const fi = document.getElementById('floatChatInput');
+    if (fi) fi.placeholder = T.chat_placeholder || 'Ask anything…';
+  }
+}
+
+async function sendFloatMessage() {
+  const input = document.getElementById('floatChatInput');
+  if (!input) return;
+  const text = input.value.trim();
+  if (!text) return;
+  input.value = '';
+  addFloatMessage('user', text);
+  floatChatHistory.push({ role: 'user', content: text });
+  showFloatTyping();
+
+  let reply = null;
+  try {
+    const res = await fetch(AI_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ messages: floatChatHistory.slice(-14), system: RESTAURANT_SYSTEM }),
+    });
+    if (res.ok) { const d = await res.json(); reply = d.reply || null; }
+  } catch {}
+
+  if (!reply) reply = buildLocalReply(text);
+  floatChatHistory.push({ role: 'assistant', content: reply });
+  removeFloatTyping();
+  addFloatMessage('bot', reply);
+}
+
+function handleFloatChatKey(e) { if (e.key === 'Enter') sendFloatMessage(); }
+
+function sendFloatSuggestionKey(key) {
+  const T = TRANSLATIONS[currentLang] || TRANSLATIONS.en;
+  const inp = document.getElementById('floatChatInput');
+  if (inp) inp.value = T[key] || TRANSLATIONS.en[key] || '';
+  sendFloatMessage();
+}
+
+function addFloatMessage(role, text) {
+  const msgs = document.getElementById('floatChatMessages');
+  if (!msgs) return;
+  const T = TRANSLATIONS[currentLang] || TRANSLATIONS.en;
+  const div = document.createElement('div');
+  div.className = `msg ${role}`;
+  div.innerHTML = `<span class="msg-label">${role === 'user' ? (T.chat_you_label || 'You') : 'ENJOY AI'}</span>
+    <div class="msg-bubble">${text.replace(/\n/g, '<br>')}</div>`;
+  msgs.appendChild(div); msgs.scrollTop = msgs.scrollHeight;
+}
+
+function showFloatTyping() {
+  const msgs = document.getElementById('floatChatMessages');
+  if (!msgs) return;
+  const div = document.createElement('div');
+  div.className = 'msg bot'; div.id = 'floatTypingIndicator';
+  div.innerHTML = `<span class="msg-label">ENJOY AI</span>
+    <div class="typing-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>`;
+  msgs.appendChild(div); msgs.scrollTop = msgs.scrollHeight;
+}
+
+function removeFloatTyping() {
+  const t = document.getElementById('floatTypingIndicator'); if (t) t.remove();
 }
 
 function sendSuggestion(t) { document.getElementById('chatInput').value = t; sendChatMessage(); }

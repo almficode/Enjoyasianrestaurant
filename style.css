@@ -1970,21 +1970,94 @@ nav.scrolled .lang-selector-btn {
 }
 
 /* ── FACEBOOK FLOAT BUTTON ────────────────────────────── */
-#fb-float {
+/* ── SOCIAL FLOAT STACK (right side) ───────────────────────── */
+#social-float {
   position: fixed; bottom: 6rem; right: 2.5rem; z-index: 500;
+  display: flex; flex-direction: column; align-items: center; gap: 0.75rem;
 }
-.fb-bubble {
-  background: #1877f2; color: #fff;
+.social-bubble {
   width: 52px; height: 52px; border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
-  font-family: Georgia, serif; font-size: 1.4rem; font-weight: 700;
-  box-shadow: 0 4px 20px rgba(24,119,242,0.35); cursor: none;
+  text-decoration: none; color: #fff;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  text-decoration: none;
 }
-.fb-bubble:hover {
-  transform: scale(1.08);
-  box-shadow: 0 6px 28px rgba(24,119,242,0.5);
+.social-bubble:hover { transform: scale(1.1); }
+.fb-bubble  { background: #1877f2; font-family: Georgia, serif; font-size: 1.4rem; font-weight: 700; box-shadow: 0 4px 20px rgba(24,119,242,0.4); }
+.fb-bubble:hover  { box-shadow: 0 6px 28px rgba(24,119,242,0.6); }
+.ig-bubble  { background: radial-gradient(circle at 30% 110%, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); box-shadow: 0 4px 20px rgba(220,39,67,0.4); }
+.ig-bubble:hover  { box-shadow: 0 6px 28px rgba(220,39,67,0.6); }
+.tt-bubble  { background: #010101; box-shadow: 0 4px 20px rgba(0,0,0,0.45); }
+.tt-bubble:hover  { box-shadow: 0 6px 28px rgba(105,201,208,0.5); }
+
+/* ── AI FLOATING CHAT (left side) ──────────────────────────── */
+#ai-chat-float {
+  position: fixed; bottom: 2.5rem; left: 2.5rem; z-index: 600;
+}
+#ai-chat-btn {
+  width: 56px; height: 56px; border-radius: 50%;
+  background: var(--accent, #6d3fc0); color: #fff; border: none; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem; box-shadow: 0 4px 24px rgba(109,63,192,0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#ai-chat-btn:hover { transform: scale(1.08); box-shadow: 0 6px 32px rgba(109,63,192,0.7); }
+
+#ai-chat-panel {
+  position: absolute; bottom: 70px; left: 0;
+  width: 340px; max-height: 480px;
+  background: var(--bg-card, #111); border: 1px solid var(--bg-border, #222);
+  border-radius: 12px; overflow: hidden;
+  display: flex; flex-direction: column;
+  box-shadow: 0 12px 48px rgba(0,0,0,0.6);
+  animation: chatSlideIn 0.22s ease;
+}
+@keyframes chatSlideIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.ai-fp-header {
+  display: flex; align-items: center; gap: 0.6rem;
+  padding: 0.85rem 1rem; background: var(--bg-soft, #0d0d0d);
+  border-bottom: 1px solid var(--bg-border, #222); flex-shrink: 0;
+}
+.ai-fp-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: #4ade80; box-shadow: 0 0 6px #4ade80; flex-shrink: 0;
+}
+.ai-fp-title {
+  font-family: var(--font-ui, sans-serif); font-size: 0.5rem;
+  letter-spacing: 0.2em; text-transform: uppercase; color: #fff;
+}
+.ai-fp-messages {
+  flex: 1; overflow-y: auto; padding: 1rem;
+  display: flex; flex-direction: column; gap: 0.8rem;
+  scrollbar-width: thin; scrollbar-color: var(--bg-border, #333) transparent;
+}
+.ai-fp-chips {
+  display: flex; flex-wrap: wrap; gap: 0.4rem;
+  padding: 0.5rem 0.8rem; flex-shrink: 0;
+  border-top: 1px solid var(--bg-border, #222);
+}
+.ai-fp-chips .chip { font-size: 0.6rem; padding: 0.3rem 0.65rem; }
+.ai-fp-input-row {
+  display: flex; gap: 0.5rem; padding: 0.7rem 0.8rem;
+  border-top: 1px solid var(--bg-border, #222); flex-shrink: 0;
+}
+.ai-fp-input {
+  flex: 1; background: var(--bg-soft, #0d0d0d); border: 1px solid var(--bg-border, #222);
+  color: #fff; padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.78rem;
+  font-family: var(--font-ui, sans-serif); outline: none;
+}
+.ai-fp-input:focus { border-color: var(--accent, #6d3fc0); }
+.ai-fp-input::placeholder { color: #555; }
+.ai-fp-send {
+  background: var(--accent, #6d3fc0); color: #fff; border: none;
+  border-radius: 6px; padding: 0 0.9rem; font-size: 1rem; cursor: pointer;
+  transition: background 0.2s;
+}
+.ai-fp-send:hover { background: var(--accent-light, #8a5cf6); }
+@media (max-width: 480px) {
+  #ai-chat-panel { width: calc(100vw - 3rem); }
 }
 
 /* ═══════════════════════════════════════════════════════════════
