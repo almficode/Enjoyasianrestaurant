@@ -1,0 +1,30 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "bianco-dev",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/Users/adrianalmeida/Desktop/Enjoyasianrestaurant/serve_bianco.py"],
+      "port": 3002
+    },
+    {
+      "name": "bianco",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "3003"],
+      "port": 3003,
+      "env": { "PORT": "3003" }
+    },
+    {
+      "name": "bodega-uga",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8765"],
+      "port": 8765
+    },
+    {
+      "name": "bicicletas",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/Users/adrianalmeida/Desktop/Enjoyasianrestaurant/serve_bicicletas.py"],
+      "port": 8787
+    }
+  ]
+}

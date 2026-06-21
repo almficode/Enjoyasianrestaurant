@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bodega de Uga — Gastronomía Auténtica de Lanzarote</title>
+  <meta name="description" content="La Bodega de Uga. Gastronomía espontánea y producto de mercado en el corazón volcánico de Lanzarote. Sin carta fija. Solo lo que el mar y la tierra ofrecen cada día." />
+  <meta name="keywords" content="restaurante Lanzarote, Bodega de Uga, gastronomía canaria, producto local, pulpo, pescado fresco, cocina tradicional" />
+  <meta property="og:title" content="Bodega de Uga — Gastronomía Auténtica de Lanzarote" />
+  <meta property="og:description" content="Aquí la carta la escribe el mar y la tierra cada mañana." />
+  <meta property="og:image" content="img_1053.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ░░ LOADER ░░ -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-brand">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Puffin silhouette simplified -->
+          <ellipse cx="24" cy="28" rx="10" ry="13" fill="#1a1a1a"/>
+          <circle cx="24" cy="13" r="7" fill="#1a1a1a"/>
+          <ellipse cx="24" cy="28" rx="5" ry="8" fill="#f5f0e8"/>
+          <ellipse cx="28" cy="13" r="3" fill="#f5f0e8"/>
+          <polygon points="24,16 30,18 24,20" fill="#c0392b"/>
+          <ellipse cx="19" cy="38" rx="3" ry="2" fill="#c0392b" transform="rotate(-20 19 38)"/>
+          <ellipse cx="29" cy="38" rx="3" ry="2" fill="#c0392b" transform="rotate(20 29 38)"/>
+        </svg>
+        <span>Bodega de Uga</span>
+      </div>
+      <div id="loader-bar-wrap">
+        <div id="loader-bar"></div>
+      </div>
+      <div id="loader-percent">0%</div>
+    </div>
+  </div>
+
+  <!-- ░░ HEADER ░░ -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-inner">
+      <a href="#" class="nav-logo">
+        <svg width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="24" cy="28" rx="10" ry="13" fill="currentColor"/>
+          <circle cx="24" cy="13" r="7" fill="currentColor"/>
+          <ellipse cx="24" cy="28" rx="5" ry="8" fill="var(--bg)"/>
+          <ellipse cx="28" cy="13" r="3" fill="var(--bg)"/>
+          <polygon points="24,16 30,18 24,20" fill="#c0392b"/>
+          <ellipse cx="19" cy="38" rx="3" ry="2" fill="#c0392b" transform="rotate(-20 19 38)"/>
+          <ellipse cx="29" cy="38" rx="3" ry="2" fill="#c0392b" transform="rotate(20 29 38)"/>
+        </svg>
+        <span>Bodega de Uga</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#filosofia">Filosofía</a></li>
+        <li><a href="#producto">El Producto</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#resenas">Reseñas</a></li>
+        <li><a href="#reservar" class="nav-cta">Reservar</a></li>
+      </ul>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Menú">
+        <span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ░░ MOBILE MENU ░░ -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#filosofia">Filosofía</a></li>
+      <li><a href="#producto">El Producto</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#resenas">Reseñas</a></li>
+      <li><a href="#reservar">Reservar mesa</a></li>
+    </ul>
+    <div class="mobile-menu-bottom">
+      <a href="https://www.instagram.com/bodegadeuga/" target="_blank" rel="noopener">@bodegadeuga</a>
+    </div>
+  </div>
+
+  <!-- ░░ CANVAS ░░ -->
+  <div class="canvas-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- ░░ DARK OVERLAY ░░ -->
+  <div id="dark-overlay"></div>
+
+  <!-- ░░ HERO OVERLAY (fixed, outside scroll) ░░ -->
+  <div id="hero-overlay">
+    <div class="hero-content">
+      <p class="hero-label">Lanzarote · Uga · Yaiza</p>
+      <h1 class="hero-heading">
+        <span class="hero-word">Aquí</span>
+        <span class="hero-word">la carta</span>
+        <span class="hero-word">la escribe</span>
+        <span class="hero-word">el mar.</span>
+      </h1>
+      <p class="hero-tagline">La Bodega de Uga — Gastronomía espontánea y producto de mercado<br>en el corazón volcánico de Lanzarote.</p>
+      <div class="hero-actions">
+        <a href="#reservar" class="btn-primary">Reservar mesa</a>
+        <a href="#filosofia" class="btn-ghost">Nuestra historia</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span class="scroll-line"></span>
+      <span class="scroll-text">Scroll</span>
+    </div>
+  </div>
+
+  <!-- ░░ SCROLL CONTAINER ░░ -->
+  <div id="scroll-container">
+
+    <!-- SECTION 1: FILOSOFÍA -->
+    <section id="filosofia" class="scroll-section section-content align-left"
+             data-enter="20" data-leave="36" data-animation="fade-up">
+      <div class="section-inner">
+        <span class="section-label">001 / Filosofía</span>
+        <h2 class="section-heading">Sin carta.<br>Solo verdad.</h2>
+        <p class="section-body">En un mundo que no para de innovar, nosotros elegimos la honestidad. Cada mañana el pescador sale a faenar y lo que trae dicta nuestra cocina. Lo que los pastores de Yaiza cuidan con sus manos llega directo a tu plato.</p>
+        <p class="section-note">No somos un restaurante que simplemente abre sus puertas en la isla. Somos parte de su paisaje.</p>
+      </div>
+    </section>
+
+    <!-- SECTION 2: EL PRODUCTO -->
+    <section id="producto" class="scroll-section section-content align-left"
+             data-enter="36" data-leave="52" data-animation="scale-up">
+      <div class="section-inner">
+        <span class="section-label">002 / El Producto</span>
+        <h2 class="section-heading">Nacidos<br>de la ceniza.</h2>
+        <p class="section-body">Pulpo cocido a baja temperatura y luego a la plancha. Pescado de litoral. Chivo de pasto. Verduras de los campos de lava. Cada ingrediente tiene nombre, tiene origen, tiene historia.</p>
+        <p class="section-note">#vinoyvida #bodegadeuga #uga</p>
+      </div>
+    </section>
+
+    <!-- SECTION 3: STATS (dark overlay) -->
+    <section class="scroll-section section-stats"
+             data-enter="52" data-leave="65" data-animation="stagger-up">
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="stat-number" data-value="30" data-decimals="0">0</span>
+          <span class="stat-suffix">+</span>
+          <span class="stat-label">Años en Lanzarote</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-value="4.8" data-decimals="1">0</span>
+          <span class="stat-suffix">★</span>
+          <span class="stat-label">Valoración media</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-value="100" data-decimals="0">0</span>
+          <span class="stat-suffix">%</span>
+          <span class="stat-label">Producto local</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: LA EXPERIENCIA -->
+    <section class="scroll-section section-content align-left"
+             data-enter="65" data-leave="78" data-animation="rotate-in">
+      <div class="section-inner">
+        <span class="section-label">003 / La Experiencia</span>
+        <h2 class="section-heading">Detén el reloj.</h2>
+        <p class="section-body">Sentarse en La Bodega de Uga es un acto de confianza. Te entregas a lo que la isla quiere ofrecerte hoy. El espacio, con sus vigas de madera oscura, sus plantas, sus objetos de otra época, te invita a quedarte.</p>
+        <p class="section-note">Una experiencia que permanece en la memoria mucho después de terminar la comida.</p>
+      </div>
+    </section>
+
+    <!-- SECTION 5: EL LUGAR -->
+    <section class="scroll-section section-content align-left"
+             data-enter="78" data-leave="88" data-animation="clip-reveal">
+      <div class="section-inner">
+        <span class="section-label">004 / El Lugar</span>
+        <h2 class="section-heading">Valle de Uga,<br>Lanzarote.</h2>
+        <p class="section-body">A las puertas del valle de Uga, rodeados de cactus centenarios, palmeras y la piedra volcánica negra que define la isla. Interior y exterior conviven en perfecta armonía canaria.</p>
+        <p class="section-note">Terrazas abiertas · Jardín botánico · Ambiente íntimo</p>
+      </div>
+    </section>
+
+    <!-- SECTION CTA (persiste) -->
+    <section id="reservar" class="scroll-section section-cta"
+             data-enter="88" data-leave="100" data-animation="blur-up" data-persist="true">
+      <div class="section-inner">
+        <span class="section-label">Reservar</span>
+        <h2 class="section-heading">Tu mesa<br>te espera.</h2>
+        <p class="section-body">Sin carta fija. Sin prisas. Solo la mejor versión de Lanzarote en tu plato.</p>
+        <div class="cta-buttons">
+          <a href="tel:+34928830302" class="btn-primary cta-button">Llamar ahora</a>
+          <a href="https://www.instagram.com/bodegadeuga/" target="_blank" rel="noopener" class="btn-outline cta-button">@bodegadeuga</a>
+        </div>
+        <div class="cta-info">
+          <span>📍 Calle La Geria, Uga, Yaiza — Lanzarote</span>
+          <span>⏰ Mar–Dom: 13:00–22:00</span>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /scroll-container -->
+
+  <!-- ░░ GALERÍA (fuera del scroll storytelling) ░░ -->
+  <section id="galeria" class="gallery-section">
+    <div class="gallery-header">
+      <span class="section-label">005 / Galería</span>
+      <h2>Lo que el día<br>nos regala.</h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item gi-1" data-reveal>
+        <img src="img_1044.jpg" alt="Pulpo a la plancha con papas y mojo verde" loading="lazy" />
+        <div class="gallery-caption">Pulpo a la plancha · Papas bonitas · Mojo verde</div>
+      </div>
+      <div class="gallery-item gi-2" data-reveal>
+        <img src="img_1046.jpg" alt="Pescado a la plancha con verduras" loading="lazy" />
+        <div class="gallery-caption">Pescado del día · Verduras de temporada</div>
+      </div>
+      <div class="gallery-item gi-3" data-reveal>
+        <img src="img_1040.jpg" alt="Salmón marinado con alcaparras" loading="lazy" />
+        <div class="gallery-caption">Salmón marinado · Alcaparras · Mantequilla</div>
+      </div>
+      <div class="gallery-item gi-4" data-reveal>
+        <img src="img_1050.jpg" alt="Chuletón a la plancha" loading="lazy" />
+        <div class="gallery-caption">Chuletón · Patatas fritas caseras</div>
+      </div>
+      <div class="gallery-item gi-5" data-reveal>
+        <img src="img_1049.jpg" alt="Barra del restaurante con vinos" loading="lazy" />
+        <div class="gallery-caption">La bodega · Vinos de selección</div>
+      </div>
+      <div class="gallery-item gi-6" data-reveal>
+        <img src="img_1052.jpg" alt="Jardín con cactus y palmeras" loading="lazy" />
+        <div class="gallery-caption">Jardín exterior · Lanzarote</div>
+      </div>
+      <div class="gallery-item gi-7" data-reveal>
+        <img src="img_1043.jpg" alt="Interior del restaurante" loading="lazy" />
+        <div class="gallery-caption">Interior auténtico · Madera y historia</div>
+      </div>
+      <div class="gallery-item gi-8" data-reveal>
+        <img src="img_1048.jpg" alt="Ensalada de aguacate y huevo" loading="lazy" />
+        <div class="gallery-caption">Ensalada · Aguacate · Rúcula · Huevo</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ RESEÑAS ░░ -->
+  <section id="resenas" class="reviews-section">
+    <div class="reviews-header">
+      <span class="section-label">006 / Reseñas</span>
+      <h2>Lo que dicen<br>quienes vivieron.</h2>
+    </div>
+    <div class="marquee-outer">
+      <div class="marquee-track" id="marquee1">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"El mejor pulpo que he comido en mi vida. Sin exagerar. La autenticidad de la cocina canaria en estado puro."</p>
+          <span class="review-author">— María G. · Google Reviews</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Un lugar mágico. Sin carta, solo confías en el chef y el resultado es impresionante. El ambiente es único."</p>
+          <span class="review-author">— James K. · TripAdvisor</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Llevamos 5 años viniendo a Lanzarote y siempre acabamos aquí. Los sabores son tan honestos que emocionan."</p>
+          <span class="review-author">— Ana y Roberto · Google</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"El pescado más fresco que puedas imaginar. El servicio cálido y la decoración te transporta. Un tesoro."</p>
+          <span class="review-author">— Pierre M. · TripAdvisor</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Bodega de Uga es sinónimo de Lanzarote para nosotros. Producto excepcional, trato familiar y precios justos."</p>
+          <span class="review-author">— Laura S. · Google Reviews</span>
+        </div>
+        <!-- Duplicados para loop continuo -->
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"El mejor pulpo que he comido en mi vida. Sin exagerar. La autenticidad de la cocina canaria en estado puro."</p>
+          <span class="review-author">— María G. · Google Reviews</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Un lugar mágico. Sin carta, solo confías en el chef y el resultado es impresionante. El ambiente es único."</p>
+          <span class="review-author">— James K. · TripAdvisor</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Llevamos 5 años viniendo a Lanzarote y siempre acabamos aquí. Los sabores son tan honestos que emocionan."</p>
+          <span class="review-author">— Ana y Roberto · Google</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"El pescado más fresco que puedas imaginar. El servicio cálido y la decoración te transporta. Un tesoro."</p>
+          <span class="review-author">— Pierre M. · TripAdvisor</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Bodega de Uga es sinónimo de Lanzarote para nosotros. Producto excepcional, trato familiar y precios justos."</p>
+          <span class="review-author">— Laura S. · Google Reviews</span>
+        </div>
+      </div>
+    </div>
+    <div class="marquee-outer reverse">
+      <div class="marquee-track" id="marquee2">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"La terraza con vistas al jardín de cactus es de otro mundo. Cocina de temporada con ingredientes que te hacen feliz."</p>
+          <span class="review-author">— Sophie L. · Google</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Imprescindible si estás en Lanzarote. La chuleta de chivo es extraordinaria. Volveremos sin duda."</p>
+          <span class="review-author">— Carlos M. · TripAdvisor</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Una bodega con alma. El vino canario maridado con el pulpo local fue una revelación. Gracias por existir."</p>
+          <span class="review-author">— Elena V. · Google Reviews</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"El lugar más auténtico de toda la isla. No te dejan elegir qué comer porque ya saben lo que necesitas."</p>
+          <span class="review-author">— Thomas B. · TripAdvisor</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Maravilloso. La decoración, el servicio, la comida. Una experiencia completa que recomiendo a todo el mundo."</p>
+          <span class="review-author">— Isabelle R. · Google</span>
+        </div>
+        <!-- Duplicados -->
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"La terraza con vistas al jardín de cactus es de otro mundo. Cocina de temporada con ingredientes que te hacen feliz."</p>
+          <span class="review-author">— Sophie L. · Google</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Imprescindible si estás en Lanzarote. La chuleta de chivo es extraordinaria. Volveremos sin duda."</p>
+          <span class="review-author">— Carlos M. · TripAdvisor</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Una bodega con alma. El vino canario maridado con el pulpo local fue una revelación. Gracias por existir."</p>
+          <span class="review-author">— Elena V. · Google Reviews</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"El lugar más auténtico de toda la isla. No te dejan elegir qué comer porque ya saben lo que necesitas."</p>
+          <span class="review-author">— Thomas B. · TripAdvisor</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Maravilloso. La decoración, el servicio, la comida. Una experiencia completa que recomiendo a todo el mundo."</p>
+          <span class="review-author">— Isabelle R. · Google</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ INSTAGRAM ░░ -->
+  <section class="instagram-section">
+    <div class="ig-header">
+      <span class="section-label">007 / Instagram</span>
+      <h2>Síguenos<br>en el día a día.</h2>
+      <a href="https://www.instagram.com/bodegadeuga/" target="_blank" rel="noopener" class="ig-handle">@bodegadeuga</a>
+    </div>
+    <div class="ig-grid">
+      <a href="https://www.instagram.com/bodegadeuga/" target="_blank" rel="noopener" class="ig-item" data-reveal>
+        <img src="img_1047.jpg" alt="Pulpo Bodega de Uga Instagram" loading="lazy" />
+        <div class="ig-overlay"><span>Ver en Instagram ↗</span></div>
+      </a>
+      <a href="https://www.instagram.com/bodegadeuga/" target="_blank" rel="noopener" class="ig-item" data-reveal>
+        <img src="img_1041.jpg" alt="Productos frescos Bodega de Uga" loading="lazy" />
+        <div class="ig-overlay"><span>Ver en Instagram ↗</span></div>
+      </a>
+      <a href="https://www.instagram.com/bodegadeuga/" target="_blank" rel="noopener" class="ig-item" data-reveal>
+        <img src="img_1051.jpg" alt="Exterior Bodega de Uga" loading="lazy" />
+        <div class="ig-overlay"><span>Ver en Instagram ↗</span></div>
+      </a>
+      <a href="https://www.instagram.com/bodegadeuga/" target="_blank" rel="noopener" class="ig-item" data-reveal>
+        <img src="img_1053.jpg" alt="Fachada Bodega de Uga" loading="lazy" />
+        <div class="ig-overlay"><span>Ver en Instagram ↗</span></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ░░ FAQ ░░ -->
+  <section class="faq-section">
+    <div class="faq-inner">
+      <div class="faq-header">
+        <span class="section-label">008 / Preguntas</span>
+        <h2>Lo que quieres<br>saber.</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">¿Por qué no tenéis carta fija?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Porque creemos en la honestidad del producto. Cada mañana el pescador trae lo que el mar ofrece, los agricultores de Yaiza nos entregan sus verduras de temporada y los pastores nos cuidan el chivo. La carta fija sería traicionar ese vínculo.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿Cómo puedo hacer una reserva?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Puedes llamarnos directamente o enviarnos un mensaje por Instagram (@bodegadeuga). Recomendamos reservar con antelación, especialmente en temporada alta.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿Tenéis opciones para vegetarianos?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Sí. Trabajamos con verduras frescas de los campos de la isla y siempre tenemos opciones vegetarianas según la temporada. Consúltanos al reservar.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿Está el restaurante en Lanzarote capital?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Estamos en el Valle de Uga, en el municipio de Yaiza, en el sur de Lanzarote. A 15 minutos de Puerto del Carmen y 20 de Playa Blanca. El viaje hasta aquí ya es parte de la experiencia.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿Aceptáis grupos grandes?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Sí, contamos con espacio tanto en el interior como en la terraza. Para grupos de más de 8 personas, contacta con nosotros directamente para organizar tu visita.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="24" cy="28" rx="10" ry="13" fill="currentColor"/>
+          <circle cx="24" cy="13" r="7" fill="currentColor"/>
+          <ellipse cx="24" cy="28" rx="5" ry="8" fill="var(--footer-bg)"/>
+          <ellipse cx="28" cy="13" r="3" fill="var(--footer-bg)"/>
+          <polygon points="24,16 30,18 24,20" fill="#c0392b"/>
+          <ellipse cx="19" cy="38" rx="3" ry="2" fill="#c0392b" transform="rotate(-20 19 38)"/>
+          <ellipse cx="29" cy="38" rx="3" ry="2" fill="#c0392b" transform="rotate(20 29 38)"/>
+        </svg>
+        <div>
+          <strong>Bodega de Uga</strong>
+          <p>Gastronomía auténtica de Lanzarote</p>
+        </div>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <p>Calle La Geria, s/n<br>Uga · Yaiza · Lanzarote</p>
+          <a href="tel:+34928830302">+34 928 830 302</a>
+        </div>
+        <div class="footer-col">
+          <h4>Horario</h4>
+          <p>Martes a Domingo<br>13:00 — 22:00</p>
+          <p style="color: var(--text-muted); font-size: 0.8rem;">Lunes: cerrado</p>
+        </div>
+        <div class="footer-col">
+          <h4>Síguenos</h4>
+          <a href="https://www.instagram.com/bodegadeuga/" target="_blank" rel="noopener" class="footer-social">
+            Instagram @bodegadeuga ↗
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2024 Bodega de Uga · Todos los derechos reservados</span>
+        <div class="footer-legal">
+          <a href="#">Aviso legal</a>
+          <a href="#">Política de privacidad</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ░░ CURSOR PERSONALIZADO ░░ -->
+  <div id="custom-cursor">
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+  </div>
+
+  <!-- CDN Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
