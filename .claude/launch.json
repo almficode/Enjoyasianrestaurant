@@ -25,6 +25,18 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["/Users/adrianalmeida/Desktop/Enjoyasianrestaurant/serve_bicicletas.py"],
       "port": 8787
+    },
+    {
+      "name": "pizzeria-gigi",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/tmp/serve_gigi.py"],
+      "port": 3456
+    },
+    {
+      "name": "enjoy",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/Users/adrianalmeida/Desktop/Enjoyasianrestaurant/serve_enjoy.py"],
+      "port": 5050
     }
   ]
 }

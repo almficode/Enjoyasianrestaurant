@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "f=$(jq -r '.tool_input.file_path // .tool_response.filePath // empty'); if [[ \"$f\" == /Users/adrianalmeida/Desktop/Enjoyasianrestaurant/pizzeria-gigi/* ]]; then cp /Users/adrianalmeida/Desktop/Enjoyasianrestaurant/pizzeria-gigi/*.html /tmp/pizzeria-gigi/ 2>/dev/null; cp /Users/adrianalmeida/Desktop/Enjoyasianrestaurant/pizzeria-gigi/*.css /tmp/pizzeria-gigi/ 2>/dev/null; cp /Users/adrianalmeida/Desktop/Enjoyasianrestaurant/pizzeria-gigi/*.js /tmp/pizzeria-gigi/ 2>/dev/null; fi",
+            "statusMessage": "Syncing pizzeria-gigi to preview..."
+          }
+        ]
+      }
+    ]
+  }
+}
