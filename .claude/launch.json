@@ -37,6 +37,18 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["/Users/adrianalmeida/Desktop/Enjoyasianrestaurant/serve_enjoy.py"],
       "port": 5050
+    },
+    {
+      "name": "pappardella",
+      "runtimeExecutable": "/usr/bin/python3",
+      "runtimeArgs": ["/tmp/serve_pappardella.py"],
+      "port": 8767
+    },
+    {
+      "name": "farmacia",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/tmp/serve_farmacia.py"],
+      "port": 8091
     }
   ]
 }

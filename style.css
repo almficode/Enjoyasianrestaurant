@@ -1994,13 +1994,23 @@ nav.scrolled .lang-selector-btn {
   position: fixed; bottom: 2.5rem; left: 2.5rem; z-index: 600;
 }
 #ai-chat-btn {
-  width: 56px; height: 56px; border-radius: 50%;
+  width: auto; height: 48px; border-radius: 999px;
+  padding: 0 1.2rem 0 1rem;
   background: var(--accent, #6d3fc0); color: #fff; border: none; cursor: pointer;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 1.4rem; box-shadow: 0 4px 24px rgba(109,63,192,0.5);
+  display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+  font-size: 1.2rem; box-shadow: 0 4px 24px rgba(109,63,192,0.5);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-#ai-chat-btn:hover { transform: scale(1.08); box-shadow: 0 6px 32px rgba(109,63,192,0.7); }
+#ai-chat-btn:hover { transform: scale(1.04); box-shadow: 0 6px 32px rgba(109,63,192,0.7); }
+#ai-chat-label {
+  font-family: var(--font-ui, 'Jost', sans-serif);
+  font-size: 0.72rem; font-weight: 500; letter-spacing: 0.12em;
+  text-transform: uppercase; white-space: nowrap;
+}
+@media (max-width: 480px) {
+  #ai-chat-btn { height: 44px; padding: 0 1rem 0 0.85rem; font-size: 1.1rem; }
+  #ai-chat-label { font-size: 0.65rem; }
+}
 
 #ai-chat-panel {
   position: absolute; bottom: 70px; left: 0;
