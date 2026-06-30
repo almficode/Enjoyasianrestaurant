@@ -1,0 +1,16 @@
+{
+  "headers": [
+    {
+      "source": "/site.webmanifest",
+      "headers": [{ "key": "Content-Type", "value": "application/manifest+json" }]
+    },
+    {
+      "source": "/favicon.ico",
+      "headers": [{ "key": "Content-Type", "value": "image/x-icon" }]
+    },
+    {
+      "source": "/(.*\\.png)",
+      "headers": [{ "key": "Content-Type", "value": "image/png" }]
+    }
+  ]
+}
