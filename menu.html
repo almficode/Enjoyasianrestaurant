@@ -87,6 +87,15 @@
     .menu-pdf-row {
       display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.6rem;
     }
+    @media (max-width: 680px) {
+      .menu-pdf-row {
+        flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory; padding-bottom: 0.5rem;
+        scrollbar-width: none; margin-left: -5%; margin-right: -5%; padding-left: 5%;
+      }
+      .menu-pdf-row::-webkit-scrollbar { display: none; }
+      .menu-pdf-row .menu-pdf-btn { flex-shrink: 0; scroll-snap-align: start; }
+    }
 
     /* ── MENU BODY ──────────────────────────────── */
     .menu-body {
@@ -209,7 +218,12 @@
       .menu-hero { padding-bottom: 2.5rem; }
       .cat-header { gap: 1rem; }
       .cat-jp { font-size: 1.4rem; }
-      .menu-grid { grid-template-columns: 1fr; }
+      .menu-grid { grid-template-columns: 1fr 1fr; }
+      .menu-item-img { height: 130px; }
+      .menu-item-body { padding: 0.8rem; }
+      .menu-item-name { font-size: 0.85rem; }
+      .menu-item-desc { display: none; }
+      .menu-price { font-size: 1rem; }
       .allergen-note { flex-direction: column; }
     }
   </style>
@@ -266,13 +280,13 @@
     <h1 class="menu-page-title">The<br>Menu</h1>
     <p class="menu-page-sub">70+ dishes crafted with passion and the finest fresh ingredients</p>
     <div class="menu-pdf-row">
-      <a href="Enjoy Carta mano 06 2024 Español.pdf" target="_blank" rel="noopener" class="menu-pdf-btn">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><line x1="10" y1="9" x2="8" y2="9"></line></svg>
-        🇪🇸 Carta en Español
-      </a>
       <a href="Enjoy Carta mano 05 2024 GB.pdf" target="_blank" rel="noopener" class="menu-pdf-btn">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><line x1="10" y1="9" x2="8" y2="9"></line></svg>
         🇬🇧 Menu in English
+      </a>
+      <a href="Enjoy Carta mano 06 2024 Español.pdf" target="_blank" rel="noopener" class="menu-pdf-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><line x1="10" y1="9" x2="8" y2="9"></line></svg>
+        🇪🇸 Carta en Español
       </a>
       <a href="Enjoy Carta mano 05 2024 D.pdf" target="_blank" rel="noopener" class="menu-pdf-btn">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><line x1="10" y1="9" x2="8" y2="9"></line></svg>
