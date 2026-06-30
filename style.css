@@ -1527,6 +1527,7 @@ nav.scrolled .lang-selector-btn {
 }
 @media (max-width: 900px) {
   .nav-lang-switcher { display: none; }
+  .review-score-bar { display: none; }
 }
 
 /* ═══════════════════════════════════════════════════════════════
