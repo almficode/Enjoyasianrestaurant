@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://enjoyasianrestaurant.vercel.app/sitemap.xml
+Sitemap: https://enjoy-asian-restaurant.com/sitemap.xml
