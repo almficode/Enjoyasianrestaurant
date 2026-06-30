@@ -581,17 +581,12 @@ section { padding: 7rem 5% 5rem; }
   display: grid; grid-template-columns: 1fr 1fr; gap: 7rem;
   align-items: center; max-width: 1380px; margin: 0 auto; padding: 9rem 5%;
 }
-.about-image-stack { position: relative; height: 600px; }
+.about-image-stack { position: relative; height: 700px; }
 .about-img-main {
   position: absolute; top: 0; left: 0; width: 100%; height: 100%;
   background: url('facade-day.jpg') center/cover no-repeat;
 }
-.about-img-accent {
-  position: absolute; bottom: 1.5rem; right: 1.5rem; width: 42%; height: 38%;
-  background: url('hero-facade.jpg') center/cover no-repeat;
-  border: 3px solid var(--bg);
-  box-shadow: -6px -6px 30px rgba(0,0,0,0.6);
-}
+.about-img-accent { display: none; }
 /* Toque morado muy sutil en las fotos */
 .about-img-main::after, .about-img-accent::after {
   content: ''; position: absolute; inset: 0;
