@@ -1268,8 +1268,20 @@ footer {
 @media (max-width: 900px) {
   nav .nav-links { display: none; }
   .hamburger { display: flex; }
-  .ai-grid, .chefs-grid, .reviews-slider,
+  .ai-grid, .chefs-grid,
   .reservation-grid, .location-grid, .section-intro { grid-template-columns: 1fr; }
+  .reviews-slider {
+    display: flex; flex-wrap: nowrap; overflow-x: auto;
+    scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+    gap: 0; background: transparent; margin-left: -5%; margin-right: -5%;
+    padding: 0 5% 1.5rem;
+    scrollbar-width: none;
+  }
+  .reviews-slider::-webkit-scrollbar { display: none; }
+  .review-card {
+    flex: 0 0 85vw; max-width: 340px;
+    scroll-snap-align: start; margin-right: 1px;
+  }
   .section-intro-right { align-items: flex-start; }
   .form-row { grid-template-columns: 1fr; }
   #cursor-dot, #cursor-ring { display: none; }
