@@ -583,16 +583,14 @@ section { padding: 7rem 5% 5rem; }
 }
 .about-image-stack { position: relative; height: 600px; }
 .about-img-main {
-  position: absolute; top: 0; left: 0; width: 78%; height: 82%;
-  background: url('https://www.enjoyasianrestaurant.com/images/Restaurante/Interior/foto-interior.jpg')
-    center/cover no-repeat;
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  background: url('facade-day.jpg') center/cover no-repeat;
 }
 .about-img-accent {
-  position: absolute; bottom: 0; right: 0; width: 75%; height: 72%;
-  background: url('hero-facade.jpg')
-    center/cover no-repeat;
-  border: 4px solid var(--bg);
-  box-shadow: -8px -8px 40px rgba(0,0,0,0.5);
+  position: absolute; bottom: 1.5rem; right: 1.5rem; width: 42%; height: 38%;
+  background: url('hero-facade.jpg') center/cover no-repeat;
+  border: 3px solid var(--bg);
+  box-shadow: -6px -6px 30px rgba(0,0,0,0.6);
 }
 /* Toque morado muy sutil en las fotos */
 .about-img-main::after, .about-img-accent::after {
@@ -1257,7 +1255,9 @@ footer {
   .cuisine-grid { grid-template-columns: repeat(2,1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 3rem; }
   #about { grid-template-columns: 1fr; }
-  .about-image-stack { height: 360px; order: 2; }
+  .about-image-stack { height: 320px; order: 2; width: 90%; margin: 2rem auto 0; }
+  .about-img-accent { display: none; }
+  .about-badge { display: none; }
   #about > div:not(.about-image-stack) { order: 1; }
   .about-stats { display: none; }
   .chef-card-inner { grid-template-columns: 1fr; }
@@ -1291,7 +1291,8 @@ footer {
 @media (max-width: 680px) {
   section { padding: 5rem 5%; }
   #about { padding: 5rem 5%; }
-  .cuisine-grid { grid-template-columns: 1fr; }
+  .cuisine-grid { grid-template-columns: 1fr 1fr; }
+  .cuisine-card { height: 260px; }
   .gallery-masonry {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 200px);
