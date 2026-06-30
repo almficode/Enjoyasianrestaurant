@@ -1,0 +1,13 @@
+{
+  "name": "ENJOY Asian Restaurant",
+  "short_name": "ENJOY Asian",
+  "description": "Sushi, Teppanyaki, Thai & Chinese restaurant in Puerto del Carmen, Lanzarote",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#6d3fc0"
+}
