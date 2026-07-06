@@ -35,8 +35,9 @@
     {
       "name": "enjoy",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["/Users/adrianalmeida/Desktop/Enjoyasianrestaurant/serve_enjoy.py"],
-      "port": 5050
+      "runtimeArgs": ["-m", "http.server", "5050"],
+      "port": 5050,
+      "cwd": "/Users/adrianalmeida/Desktop/Enjoyasianrestaurant"
     },
     {
       "name": "pappardella",
