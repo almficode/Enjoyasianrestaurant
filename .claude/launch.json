@@ -49,6 +49,16 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["/tmp/serve_farmacia.py"],
       "port": 8091
+    },
+    {
+      "name": "almficode-dev",
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": [
+        "-c",
+        "cd \"/Users/adrianalmeida/Desktop/Mi Web\" && exec npm run dev"
+      ],
+      "port": 3000,
+      "env": { "PATH": "/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin" }
     }
   ]
 }
