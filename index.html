@@ -765,6 +765,11 @@
   </div>
   <div class="footer-bottom">
     <span class="footer-copy" data-i18n="footer_copy">© 2026 ENJOY Asian Restaurant · Lanzarote</span>
+    <div class="footer-legal-links">
+      <a href="privacidad.html" data-i18n="footer_privacy">Política de Privacidad</a>
+      <span class="footer-legal-sep">·</span>
+      <a href="cookies.html" data-i18n="footer_cookies">Política de Cookies</a>
+    </div>
     <div class="footer-lang">
       <button class="lang-btn active" onclick="setLang('en')">EN</button>
       <button class="lang-btn" onclick="setLang('es')">ES</button>
@@ -774,6 +779,20 @@
     </div>
   </div>
 </footer>
+
+<!-- Banner de consentimiento de cookies -->
+<div id="cookie-banner" style="display:none;">
+  <div id="cookie-banner-inner">
+    <div id="cookie-banner-text">
+      <strong data-i18n="cookie_title">Usamos cookies</strong>
+      <p data-i18n="cookie_desc">Utilizamos cookies técnicas (necesarias) y analíticas (opcionales) para mejorar tu experiencia. Consulta nuestra <a href="cookies.html" data-i18n="cookie_link">Política de Cookies</a>.</p>
+    </div>
+    <div id="cookie-banner-btns">
+      <button id="cookie-reject" onclick="cookieChoice(false)" data-i18n="cookie_reject">Solo esenciales</button>
+      <button id="cookie-accept" onclick="cookieChoice(true)" data-i18n="cookie_accept">Aceptar todas</button>
+    </div>
+  </div>
+</div>
 
 <script src="script.js"></script>
 </body>

@@ -201,6 +201,13 @@ const TRANSLATIONS = {
     footer_thai:      "Thai Kitchen',     footer_chinese: 'Chinese Classics",
     footer_veg:       "Vegetarian',       footer_cocktails: 'Cocktails & Drinks",
     footer_copy:      '© 2026 ENJOY Asian Restaurant · Lanzarote',
+    footer_privacy:   'Privacy Policy',
+    footer_cookies:   'Cookie Policy',
+    cookie_title:     'We use cookies',
+    cookie_desc:      'We use essential cookies and optional analytics cookies to improve your experience. See our <a href="cookies.html">Cookie Policy</a>.',
+    cookie_link:      'Cookie Policy',
+    cookie_reject:    'Essential only',
+    cookie_accept:    'Accept all',
 
     cuisine_desc_sushi: 'Hand-pressed nigiri, artisan maki rolls and ultra-fresh sashimi. The purest expression of Japanese culinary mastery.',
     cuisine_desc_teppa: "Chef Leo's live performance on the iron griddle — fire, knife artistry and theatre fused into an unforgettable spectacle.",
@@ -438,6 +445,13 @@ const TRANSLATIONS = {
     footer_thai:      "Cocina Tailandesa', footer_chinese: 'Clásicos Chinos",
     footer_veg:       "Vegetariano', footer_cocktails: 'Cócteles y Bebidas",
     footer_copy:      '© 2026 ENJOY Asian Restaurant · Lanzarote',
+    footer_privacy:   'Política de Privacidad',
+    footer_cookies:   'Política de Cookies',
+    cookie_title:     'Usamos cookies',
+    cookie_desc:      'Utilizamos cookies técnicas (necesarias) y analíticas (opcionales) para mejorar tu experiencia. Consulta nuestra <a href="cookies.html">Política de Cookies</a>.',
+    cookie_link:      'Política de Cookies',
+    cookie_reject:    'Solo esenciales',
+    cookie_accept:    'Aceptar todas',
 
     cuisine_desc_sushi: 'Nigiri prensado a mano, makis artesanales y sashimi ultrafresco. La expresión más pura de la maestría culinaria japonesa.',
     cuisine_desc_teppa: 'La actuación en vivo del Chef Leo en la plancha — fuego, destreza con el cuchillo y teatro fusionados en un espectáculo inolvidable.',
@@ -672,6 +686,13 @@ const TRANSLATIONS = {
     footer_thai:'Thaiküche',footer_chinese:'Chinesische Klassiker',
     footer_veg:'Vegetarisch',footer_cocktails:'Cocktails & Getränke',
     footer_copy:'© 2026 ENJOY Asian Restaurant · Lanzarote',
+    footer_privacy:'Datenschutzrichtlinie',
+    footer_cookies:'Cookie-Richtlinie',
+    cookie_title:'Wir verwenden Cookies',
+    cookie_desc:'Wir verwenden technische und optionale Analyse-Cookies, um Ihr Erlebnis zu verbessern. Siehe unsere <a href="cookies.html">Cookie-Richtlinie</a>.',
+    cookie_link:'Cookie-Richtlinie',
+    cookie_reject:'Nur notwendige',
+    cookie_accept:'Alle akzeptieren',
 
     cuisine_desc_sushi: 'Handgepresste Nigiri, handwerkliche Maki-Rollen und ultrafrisches Sashimi. Der reinste Ausdruck japanischer Kochkunst.',
     cuisine_desc_teppa: 'Chef Leos Live-Auftritt auf dem Eisengrill — Feuer, Messerkünste und Theater zu einem unvergesslichen Spektakel vereint.',
@@ -874,6 +895,13 @@ const TRANSLATIONS = {
     footer_thai:'Cuisine Thaïlandaise',footer_chinese:'Classiques Chinois',
     footer_veg:'Végétarien',footer_cocktails:'Cocktails & Boissons',
     footer_copy:'© 2026 ENJOY Asian Restaurant · Lanzarote',
+    footer_privacy:'Politique de Confidentialité',
+    footer_cookies:'Politique des Cookies',
+    cookie_title:'Nous utilisons des cookies',
+    cookie_desc:'Nous utilisons des cookies essentiels et des cookies analytiques optionnels. Consultez notre <a href="cookies.html">Politique des Cookies</a>.',
+    cookie_link:'Politique des Cookies',
+    cookie_reject:'Essentiels seulement',
+    cookie_accept:'Tout accepter',
 
     cuisine_desc_sushi:"Nigiri pressés à la main, rouleaux maki artisanaux et sashimi ultra-frais. L'expression la plus pure de la maîtrise culinaire japonaise.",
     cuisine_desc_teppa: "La performance en direct du Chef Leo sur le gril en fer — feu, art du couteau et théâtre fusionnés en un spectacle inoubliable.",
@@ -1031,6 +1059,13 @@ const TRANSLATIONS = {
     footer_thai:'Thaise Keuken',footer_chinese:'Chinese Klassiekers',
     footer_veg:'Vegetarisch',footer_cocktails:'Cocktails & Dranken',
     footer_copy:'© 2026 ENJOY Asian Restaurant · Lanzarote',
+    footer_privacy:'Privacybeleid',
+    footer_cookies:'Cookiebeleid',
+    cookie_title:'Wij gebruiken cookies',
+    cookie_desc:'Wij gebruiken technische en optionele analytische cookies om uw ervaring te verbeteren. Zie ons <a href="cookies.html">Cookiebeleid</a>.',
+    cookie_link:'Cookiebeleid',
+    cookie_reject:'Alleen essentieel',
+    cookie_accept:'Alles accepteren',
 
     cuisine_desc_sushi: 'Handgepresste nigiri, ambachtelijke makirolletjes en ultraverse sashimi. De puurste uitdrukking van Japanse culinaire meesterschap.',
     cuisine_desc_teppa: 'Chef Leos live optreden op de ijzeren grill — vuur, meskunst en theater samengesmolten tot een onvergetelijk spektakel.',
@@ -2366,4 +2401,18 @@ async function generateSentimentSummary() {
 /* ── INIT PAIRING DISHES ON LOAD ──────────────────────────── */
 document.addEventListener('DOMContentLoaded', () => {
   initPairingDishes();
+});
+
+/* ── COOKIE BANNER ──────────────────────────────────────── */
+function cookieChoice(accepted) {
+  localStorage.setItem('enjoy_cookie_consent', accepted ? 'all' : 'essential');
+  document.getElementById('cookie-banner').style.display = 'none';
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const consent = localStorage.getItem('enjoy_cookie_consent');
+  if (!consent) {
+    const banner = document.getElementById('cookie-banner');
+    if (banner) setTimeout(() => { banner.style.display = 'block'; }, 1200);
+  }
 });

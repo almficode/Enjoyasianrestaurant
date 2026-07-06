@@ -575,5 +575,18 @@ function submitReservation(e) {
   setTimeout(() => { btn.textContent = '✦ Confirm Reservation'; btn.style.background = ''; e.target.reset(); }, 4000);
 }
 </script>
+<!-- Banner de consentimiento de cookies -->
+<div id="cookie-banner" style="display:none;">
+  <div id="cookie-banner-inner">
+    <div id="cookie-banner-text">
+      <strong data-i18n="cookie_title">Usamos cookies</strong>
+      <p data-i18n="cookie_desc">Utilizamos cookies técnicas y analíticas para mejorar tu experiencia. Consulta nuestra <a href="cookies.html" data-i18n="cookie_link">Política de Cookies</a>.</p>
+    </div>
+    <div id="cookie-banner-btns">
+      <button id="cookie-reject" onclick="cookieChoice(false)" data-i18n="cookie_reject">Solo esenciales</button>
+      <button id="cookie-accept" onclick="cookieChoice(true)" data-i18n="cookie_accept">Aceptar todas</button>
+    </div>
+  </div>
+</div>
 </body>
 </html>
