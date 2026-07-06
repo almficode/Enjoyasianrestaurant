@@ -2309,6 +2309,39 @@ footer::before {
     -webkit-mask-image: none;
     mask-image: none;
   }
+  /* ── Conexión visual menu → teppanyaki → chefs en móvil ── */
+  #menu-gateway {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  #chefs {
+    padding-top: 4rem;
+  }
+  /* ── Chefs: scroll horizontal en móvil ── */
+  .chefs-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 0;
+    background: transparent;
+    margin: 2rem -5% 0;
+    padding: 0 5% 1.5rem;
+    scrollbar-width: none;
+  }
+  .chefs-grid::-webkit-scrollbar { display: none; }
+  .chef-card {
+    flex: 0 0 85vw;
+    max-width: 360px;
+    scroll-snap-align: start;
+    margin-right: 1px;
+  }
+  .chef-card-inner {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+  .chef-photo { height: 240px; }
 }
 
 /* ═══════════════════════════════════════════════════════════════
