@@ -55,6 +55,7 @@ body {
   overflow-x: hidden;
   cursor: none;
   -webkit-font-smoothing: antialiased;
+  text-align: justify;
 }
 ::selection { background: var(--accent); color: #fff; }
 img { max-width: 100%; display: block; }
