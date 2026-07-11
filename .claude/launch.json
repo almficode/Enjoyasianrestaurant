@@ -4,52 +4,84 @@
     {
       "name": "bianco-dev",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["/Users/adrianalmeida/Desktop/Enjoyasianrestaurant/serve_bianco.py"],
+      "runtimeArgs": [
+        "/Users/adrianalmeida/Desktop/Enjoyasianrestaurant/serve_bianco.py"
+      ],
       "port": 3002
     },
     {
       "name": "bianco",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "3003"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "3003"
+      ],
       "port": 3003,
-      "env": { "PORT": "3003" }
+      "env": {
+        "PORT": "3003"
+      }
     },
     {
       "name": "bodega-uga",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8765"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8765"
+      ],
       "port": 8765
     },
     {
       "name": "bicicletas",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["/Users/adrianalmeida/Desktop/Enjoyasianrestaurant/serve_bicicletas.py"],
+      "runtimeArgs": [
+        "/Users/adrianalmeida/Desktop/Enjoyasianrestaurant/serve_bicicletas.py"
+      ],
       "port": 8787
     },
     {
       "name": "pizzeria-gigi",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["/tmp/serve_gigi.py"],
+      "runtimeArgs": [
+        "/tmp/serve_gigi.py"
+      ],
       "port": 3456
     },
     {
       "name": "enjoy",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "5050"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5050"
+      ],
       "port": 5050,
       "cwd": "/Users/adrianalmeida/Desktop/Enjoyasianrestaurant"
     },
     {
       "name": "pappardella",
       "runtimeExecutable": "/usr/bin/python3",
-      "runtimeArgs": ["/tmp/serve_pappardella.py"],
+      "runtimeArgs": [
+        "/tmp/serve_pappardella.py"
+      ],
       "port": 8767
     },
     {
       "name": "farmacia",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["/tmp/serve_farmacia.py"],
+      "runtimeArgs": [
+        "/tmp/serve_farmacia.py"
+      ],
       "port": 8091
+    },
+    {
+      "name": "cacesar",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "/tmp/serve_cacesar.py"
+      ],
+      "port": 8890
     },
     {
       "name": "almficode-dev",
@@ -59,7 +91,9 @@
         "cd \"/Users/adrianalmeida/Desktop/Mi Web\" && exec npm run dev"
       ],
       "port": 3000,
-      "env": { "PATH": "/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin" }
+      "env": {
+        "PATH": "/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+      }
     }
   ]
 }
